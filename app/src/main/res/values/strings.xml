@@ -3,4 +3,6 @@
     <string name="start_Button">Start</string>
     <string name="guide_Button">GUIDE</string>
     <string name="quit_Button">Quit</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
 </resources>

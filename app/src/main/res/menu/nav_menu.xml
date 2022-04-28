@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<item android:title="Blocks">
+     <menu>
+         <item
+            android:id="@+id/nav_intVar"
+            android:title="Integer variable"
+         />
+         <item
+            android:id="@+id/nav_assignValtoVar"
+            android:title="Assigning value "
+         />
+         <item
+            android:id="@+id/nav_arithmeticExp"
+            android:title="Arithmetic Expression"
+         />
+         <item
+            android:id="@+id/nav_if"
+            android:title="If"
+         />
+    </menu>
+</item>
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+    />
+
+</menu>
