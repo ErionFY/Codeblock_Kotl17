@@ -28,8 +28,12 @@ class codeblockActivity : AppCompatActivity() {
 
         navView.setNavigationItemSelectedListener {
             when(it.itemId)
-            {
-                R.id.nav_home-> Toast.makeText(applicationContext,"Clicked Home",Toast.LENGTH_SHORT).show()
+            {   R.id.nav_home->this.finish()
+                R.id.nav_intVar-> Toast.makeText(applicationContext,"Created Integer variable",Toast.LENGTH_SHORT).show()
+                R.id.nav_assignValtoVar-> Toast.makeText(applicationContext,"Created Assigning value",Toast.LENGTH_SHORT).show()
+                R.id.nav_arithmeticExp-> Toast.makeText(applicationContext,"Created Arithmetic Expression",Toast.LENGTH_SHORT).show()
+                R.id.nav_if-> Toast.makeText(applicationContext,"Created If",Toast.LENGTH_SHORT).show()
+//PS: можно написать функцию, которая будет вызываться при нажатии кнопки)))
             }
             true
         }
