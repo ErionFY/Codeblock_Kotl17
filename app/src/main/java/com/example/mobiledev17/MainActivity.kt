@@ -3,7 +3,8 @@ package com.example.mobiledev17
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
+import kotlinx.android.synthetic.main.activity_main.*
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,15 +12,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val startButton: Button = findViewById(R.id.startButton)
-        startButton.setOnClickListener {
-            val intent = Intent(this, codeblockActivity::class.java)
+        btnStart.setOnClickListener {
+            val intent = Intent(this, CodeblockActivity::class.java)
             startActivity(intent)
         }
 
-
-        val quitButton: Button = findViewById(R.id.quitButton)
-        quitButton.setOnClickListener {
+        btnQuit.setOnClickListener {
             this.finish()
         }
 

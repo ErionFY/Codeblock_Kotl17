@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileDev17">
         <activity
-            android:name=".codeblockActivity"
+            android:name=".CodeblockActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
